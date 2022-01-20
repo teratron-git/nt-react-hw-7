@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./App.css"
 import TaskSwitcher from "./components/TaskSwitcher"
+import Time from "./components/Time"
 
 const App = () => {
   const [task, setTask] = useState("1")
@@ -13,7 +14,7 @@ const App = () => {
     <>
       <TaskSwitcher task={task} onChangeHandler={handler} />
 
-      {task == "1" && <>Task 1</>}
+      {task == "1" && <Time />}
 
       {/* {task == "2" && <Steps />} */}
 
