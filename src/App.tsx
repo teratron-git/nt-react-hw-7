@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./App.css"
+import Highlight from "./components/Highlight"
 import TaskSwitcher from "./components/TaskSwitcher"
 import Time from "./components/Time"
 
@@ -16,7 +17,7 @@ const App = () => {
 
       {task == "1" && <Time />}
 
-      {/* {task == "2" && <Steps />} */}
+      {task == "2" && <Highlight />}
 
       {task == "3" && <>Task 3</>}
     </>

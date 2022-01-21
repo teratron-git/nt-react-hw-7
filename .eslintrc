@@ -28,7 +28,7 @@
     "import/prefer-default-export": "warn",
     "radix": "off",
     "react/prop-types": "off",
-    "no-nested-ternary": "warn",
+    "no-nested-ternary": "off",
     "react/sort-comp": "off",
     "react/no-array-index-key": "warn",
     "react/no-unescaped-entities": "off",
@@ -76,7 +76,9 @@
     "prefer-arrow-callback": "warn",
     "react/function-component-definition": ["warn", { "namedComponents": "arrow-function" }],
     "no-restricted-exports": "off",
-    "react/no-unused-prop-types": "warn"
+    "react/no-unused-prop-types": "warn",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off"
   },
   "ignorePatterns": ["build/"]
 }
